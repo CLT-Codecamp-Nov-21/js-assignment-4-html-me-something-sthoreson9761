@@ -1,7 +1,26 @@
 /* Write your CSS here! */
+html{
+    float:left;
+    background-color: royalblue;
+}
 body{
     margin: 8px;
     display: block; 
+}
+header{
+    line-height:15em;
+    float:none;
+    /* vertical-align: middle; */
+    
+    /* background-size: 10em 10em; */
+
+    /* display:inline; */
+}
+main{
+    margin-left:10em;
+    margin-right:10em;
+    padding: 8px;
+    background-color:whitesmoke;
 }
 #mainHeading {
     color: red;
@@ -9,8 +28,19 @@ body{
 .funParagraph{
     color:green;
 }
-/* #icon{
-    width: 10%;
-    height: 10%;
-    float:left;
-} */
+#icon{
+    height: 15em;   
+    /* vertical-align: middle;  */
+    float: left;
+}
+#jw{
+    width: 10em;
+    /* height: 20%; */
+}
+#title{
+    vertical-align: middle;
+    text-align: center;
+    /* line-height: 10em; */
+    /* left: 11em; */
+}
+
