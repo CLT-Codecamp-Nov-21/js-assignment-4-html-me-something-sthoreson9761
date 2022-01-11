@@ -1,7 +1,7 @@
 /* Write your CSS here! */
 html{
     float:left;
-    background-color: royalblue;
+    /* background-color: royalblue; */
 }
 body{
     margin: 8px;
@@ -15,27 +15,24 @@ body{
     /* background-size: 10em 10em; */
 
     /* display:inline; */
-} */
-main{
+
+    /*}*/ 
+/* main{
     margin-left:10em;
     margin-right:10em;
     padding: 8px;
     background-color:whitesmoke;
-}
+} */
 #mainHeading {
     color: red;
 }
 .funParagraph{
-    color:green;
+    color: green;
 }
 #icon{
     height: 15em;   
     /* vertical-align: middle;  */
     float: left;
-}
-#jw{
-    width: 10em;
-    /* height: 20%; */
 }
 #title{
     vertical-align: middle;
