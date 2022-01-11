@@ -7,7 +7,7 @@ body{
     margin: 8px;
     display: block; 
 }
-header{
+/* header{
     line-height:15em;
     float:none;
     /* vertical-align: middle; */
@@ -15,7 +15,7 @@ header{
     /* background-size: 10em 10em; */
 
     /* display:inline; */
-}
+} */
 main{
     margin-left:10em;
     margin-right:10em;
