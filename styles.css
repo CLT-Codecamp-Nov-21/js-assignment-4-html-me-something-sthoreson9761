@@ -1,12 +1,10 @@
 /* Write your CSS here! */
-html{
-    float:left;
-    color:white;
-}
 body{
     margin: 8px;
     display: block; 
     background-color: royalblue;
+    float:left;
+    color:white;
 }
 td{
     padding: 8px;
@@ -61,6 +59,7 @@ li p{
 }
 #mainHeading {
     color: red;
+    float: none;
 }
 .funParagraph{
     color: green;
