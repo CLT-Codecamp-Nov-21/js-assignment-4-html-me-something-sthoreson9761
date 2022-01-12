@@ -1,43 +1,87 @@
 /* Write your CSS here! */
 html{
     float:left;
-    /* background-color: royalblue; */
+    color:white;
 }
 body{
     margin: 8px;
     display: block; 
+    background-color: royalblue;
 }
-/* header{
-    line-height:15em;
-    float:none;
-    /* vertical-align: middle; */
-    
-    /* background-size: 10em 10em; */
-
-    /* display:inline; */
-
-    /*}*/ 
-/* main{
+td{
+    padding: 8px;
+}
+tr:nth-child(even), thead{
+    background-color: #dddddd;
+}
+.feature{
+    width: 130px;
+}
+.description{
+    width: calc(100% - 130px);
+} 
+.banner{
+    height: 15em;
+}
+main{
     margin-left:10em;
     margin-right:10em;
     padding: 8px;
+    background-color:midnightblue;
+}
+article{
+    /* background-color:whitesmoke; */
+    background-image: url("./images/text-box.png");
+    background-size: 100% 100%;
+}
+table{
+    width: calc(100%-1em);
+    margin-left: 1em;
+    margin-right: 1em;
+    color: black;
     background-color:whitesmoke;
-} */
+}
+h2{
+    background-color: slategray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+h2,p,h3{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+ul{
+    padding-right: 20px;
+}
+li p{
+    padding-left: -5px;
+}
+.lastPara{
+    padding-bottom: 8px;
+}
 #mainHeading {
     color: red;
 }
 .funParagraph{
     color: green;
 }
-#icon{
-    height: 15em;   
-    /* vertical-align: middle;  */
-    float: left;
+#iconL{
+    float:left;
+    z-index: 0;
 }
-#title{
+#iconR{
+    /* height: 15em;    */
+    float: right;
+    transform: scaleX(-1);
+    z-index: 0;
+}
+.title{
     vertical-align: middle;
     text-align: center;
-    /* line-height: 10em; */
-    /* left: 11em; */
+    z-index: 1;
+    margin-top: -25px;
+    margin-bottom: 1em;
 }
-
+footer{
+    margin-left:10em;
+}
