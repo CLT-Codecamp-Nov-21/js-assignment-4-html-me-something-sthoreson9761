@@ -20,6 +20,7 @@ tr:nth-child(even), thead{
 } 
 .banner{
     height: 15em;
+    float:none;
 }
 main{
     margin-left:10em;
