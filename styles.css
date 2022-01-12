@@ -1,1 +1,96 @@
 /* Write your CSS here! */
+body{
+    margin: 8px;
+    display: block; 
+    background-color: royalblue;
+    float:left;
+    color:white;
+}
+#headerImage{
+    width: 100%;
+}
+.imgHead{
+    column-width: auto;
+}
+.visRow:nth-child(even), thead{
+    background-color: #dddddd;
+}
+.feature{
+    width: 130px;
+    padding: 8px;
+}
+.description{
+    width: calc(100% - 130px);
+    padding: 8px;
+} 
+.banner{
+    height: 15em;
+    float:none;
+}
+main{
+    margin-left:10em;
+    margin-right:10em;
+    padding: 8px;
+    background-color:midnightblue;
+}
+article{
+    background-image: url("./images/text-box.png");
+    background-size: 100% 100%;
+}
+#titleLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#visTable{
+    width: calc(100%-1em);
+    margin-left: 1em;
+    margin-right: 1em;
+    color: black;
+    background-color:whitesmoke;
+}
+h2{
+    background-color: slategray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+h2,p,h3{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+ul{
+    padding-right: 20px;
+}
+li p{
+    padding-left: -5px;
+}
+.lastPara{
+    padding-bottom: 8px;
+}
+#mainHeading {
+    color: red;
+    float: none;
+}
+.funParagraph{
+    color: green;
+}
+#iconL{
+    float:left;
+    z-index: 0;
+}
+#iconR{
+    /* height: 15em;    */
+    float: right;
+    transform: scaleX(-1);
+    z-index: 0;
+}
+.title{
+    vertical-align: middle;
+    text-align: center;
+    z-index: 1;
+    margin-top: -25px;
+    margin-bottom: 1em;
+}
+footer{
+    margin-left:10em;
+}
