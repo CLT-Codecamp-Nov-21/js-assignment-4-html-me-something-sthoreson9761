@@ -6,17 +6,22 @@ body{
     float:left;
     color:white;
 }
-td{
-    padding: 8px;
+#headerImage{
+    width: 100%;
 }
-tr:nth-child(even), thead{
+.imgHead{
+    column-width: auto;
+}
+.visRow:nth-child(even), thead{
     background-color: #dddddd;
 }
 .feature{
     width: 130px;
+    padding: 8px;
 }
 .description{
     width: calc(100% - 130px);
+    padding: 8px;
 } 
 .banner{
     height: 15em;
@@ -29,11 +34,15 @@ main{
     background-color:midnightblue;
 }
 article{
-    /* background-color:whitesmoke; */
     background-image: url("./images/text-box.png");
     background-size: 100% 100%;
 }
-table{
+#titleLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#visTable{
     width: calc(100%-1em);
     margin-left: 1em;
     margin-right: 1em;

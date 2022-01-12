@@ -6,12 +6,15 @@
    </head>
    <body>
       <main>
-         <img src="./images/jwTitle.png" class="banner" alt="javalinwarrior_logo">
-         <img src="./images/sprite-dude2.png" id="iconR" class="banner" alt="javalinwarrior_sprite">
-         <img src="./images/sprite-dude2.png" id="iconL" class="banner" alt="javalinwarrior_sprite">
+         
          <header id="mainHeading">
-            
-            <!-- <h1 class="title" id="mainTitle">Javalin Warrior</h1> -->
+            <table id="headerImage">
+               <tr>
+                  <td class="imgHead"><img src="./images/sprite-dude2.png" id="iconL" class="banner" alt="javalinwarrior_sprite"></td>
+                  <td class="imgHead"><img src="./images/jwTitle.png" id="titleLogo" class="banner" alt="javalinwarrior_logo"></td>
+                  <td class="imgHead"><img src="./images/sprite-dude2.png" id="iconR" class="banner" alt="javalinwarrior_sprite"></td>
+               </tr>
+            </table>
             <h1 class="title">A New Way to Learn Java</h1>
          </header>
          <article id="javalinwarrior">
@@ -22,26 +25,26 @@
          <article id="vision">
             <h2>The Larger Vision</h2>
             <p>The table bellow contains only a few of the features that we were unable to implement before the due date.</p>
-            <table>
+            <table id="visTable">
                <thead>
                   <td class="feature">Feature</td>
                   <td class="description">Description</td>
                </thead>
-               <tr>
+               <tr class="visRow">
                   <td class="feature">User profiles</td>
                   <td class="description">Contains the information for an inarticleidual user. This information consists of the inarticleiduals
                   username and id, email, password, and levels they have completed and their input.</td>
                </tr>
-               <tr>
+               <tr class="visRow">
                   <td class="feature">Level selection</td>
                   <td class="description">Contains the list of levels that the user has completed and re-attempt them.</td>
                </tr>
-               <tr>
+               <tr class="visRow">
                   <td class="feature">User input flexibilty</td>
                   <td class="description">This is to allow the user to input a possibly correct answer instead of the exact line of code. Think of
                   this as using unit testing only the expected output can only be true if it meets certain requirements.</td>
                </tr>
-               <tr>
+               <tr class="visRow">
                   <td class="feature">Level difficulties</td>
                   <td class="description">This would allow the user to test their knowledge of programming. The lowest requires that the user input
                   only this area of code, while the highest requires the user to write all their (Java) code for the level
